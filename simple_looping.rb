@@ -43,7 +43,7 @@ def until_iterator(number_of_times)
   # hint: use a counter to tell the until loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
   count = number_of_times
-  
+
   until count == 0
     puts phrase
     count -= 1
@@ -55,5 +55,8 @@ def for_iterator(number_of_times)
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
 
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+
+  for num in (1..number_of_times) do
+    
+  end
 end
